@@ -25,17 +25,17 @@ $(window).on('load', function() {
     $(".preloader").delay(1000).fadeOut();
 
 
-    /*======== Isotope Portfolio Setup ========*/
-    if( $('.portfolio-items').length ) {
-        var $elements = $(".portfolio-items"),
-            $filters = $('.portfolio-filter ul li');
+    /*======== Isotope project Setup ========*/
+    if( $('.project-items').length ) {
+        var $elements = $(".project-items"),
+            $filters = $('.project-filter ul li');
         $elements.isotope();
 
         $filters.on('click', function(){
             $filters.removeClass('active');
             $(this).addClass('active');
             var selector = $(this).data('filter');
-            $(".portfolio-items").isotope({
+            $(".project-items").isotope({
                 filter: selector,
                 hiddenStyle: {
                     transform: 'scale(.2) skew(30deg)',
@@ -180,27 +180,27 @@ $(document).ready(function() {
         }
     }
 
-    /*======== Portfolio Image Link Setup ========*/
-    $('.portfolio-items .image-link').magnificPopup({
+    /*======== project Image Link Setup ========*/
+    $('.project-items .image-link').magnificPopup({
         type: 'image',
         gallery: {
             enabled: true
         }
     });
 
-    /*======== Portfolio Video Link Setup ========*/
-    $('.portfolio-items .video-link').magnificPopup({
+    /*======== project Video Link Setup ========*/
+    $('.project-items .video-link').magnificPopup({
         type: 'iframe',
         gallery: {
             enabled: true
         }
     });
 
-    /*======== Portfolio Ajax Link Setup ========*/
-    ajaxPortfolioSetup($('.portfolio-items .ajax-link'), $('.ajax-portfolio-popup'));
+    /*======== project Ajax Link Setup ========*/
+    ajaxprojectSetup($('.project-items .ajax-link'), $('.ajax-project-popup'));
 
-    /*======== Portfolio Tilt Setup ========*/
-    $('#portfolio .item figure').tilt({
+    /*======== project Tilt Setup ========*/
+    $('#project .item figure').tilt({
         maxTilt: 3,
         glare: true,
         maxGlare: .6,
@@ -218,8 +218,8 @@ $(document).ready(function() {
 });
 
 
-/*********** Function Ajax Portfolio Setup **********/
-function ajaxPortfolioSetup($ajaxLink, $ajaxContainer) {
+/*********** Function Ajax project Setup **********/
+function ajaxprojectSetup($ajaxLink, $ajaxContainer) {
     $ajaxLink.on('click', function(e) {
         var link = $(this).attr('href');
 

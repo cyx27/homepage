@@ -91,15 +91,15 @@ ul.education .content h5 {
     border-bottom-color: #5aa839;
 }
 
-.portfolio-section .portfolio-filter ul li.active {
+.project-section .project-filter ul li.active {
     background-color: #6ac045;
 }
 
-.portfolio-section .item figure:before {
+.project-section .item figure:before {
     background-color: #6ac045;
 }
 
-.ajax-portfolio-popup .information span.title {
+.ajax-project-popup .information span.title {
     color: #6ac045;
 }
 

@@ -24,10 +24,10 @@
         4. Banner Section
         5. About Section
         6. Resume Section
-        7. Portfolio Section
+        7. project Section
         8. Blog Section
         9. About Section
-        10. Ajax Portfolio
+        10. Ajax project
         11. Blog Page Css
         12. Mobile Responsive Css
 **************************************/
@@ -1279,17 +1279,17 @@ header .header-mobile .header-toggle i {
 }
 
 
-/*============ 7. Portfolio Section ============*/
+/*============ 7. project Section ============*/
 
-.portfolio-section {
+.project-section {
     background-color: #FBFBFB;
 }
 
-.portfolio-section .portfolio-filter {
+.project-section .project-filter {
     margin-bottom: 30px;
 }
 
-.portfolio-section .portfolio-filter ul {
+.project-section .project-filter ul {
     display: inline-block;
     margin: 0 auto;
     -webkit-border-radius: 27px;
@@ -1298,7 +1298,7 @@ header .header-mobile .header-toggle i {
     line-height: 0;
 }
 
-.portfolio-section .portfolio-filter ul li {
+.project-section .project-filter ul li {
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
@@ -1313,30 +1313,30 @@ header .header-mobile .header-toggle i {
     transition: all .3s ease;
 }
 
-.portfolio-section .portfolio-filter ul li.active {
+.project-section .project-filter ul li.active {
     background-color: #222;
     -webkit-border-radius: 27px;
     border-radius: 27px;
     color: #FBFBFB;
 }
 
-.portfolio-section {
+.project-section {
     overflow: hidden;
 }
 
-.portfolio-section .item {
+.project-section .item {
     padding-left: 1em;
     padding-right: 1em;
 }
 
-.portfolio-section .item figure {
+.project-section .item figure {
     position: relative;
     overflow: hidden;
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
 
-.portfolio-section .item figure:before {
+.project-section .item figure:before {
     content: '';
     position: absolute;
     top: 0;
@@ -1350,12 +1350,12 @@ header .header-mobile .header-toggle i {
     transition: all .4s ease-in-out;
 }
 
-.portfolio-section .item figure:hover:before {
+.project-section .item figure:hover:before {
     opacity: .7;
 }
 
-.portfolio-section .item figure:hover figcaption h4,
-.portfolio-section .item figure:hover figcaption p {
+.project-section .item figure:hover figcaption h4,
+.project-section .item figure:hover figcaption p {
     opacity: 1;
     -webkit-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
@@ -1365,7 +1365,7 @@ header .header-mobile .header-toggle i {
     transform: translateY(0);
 }
 
-.portfolio-section .item figure figcaption {
+.project-section .item figure figcaption {
     position: absolute;
     left: 0;
     top: 50%;
@@ -1376,8 +1376,8 @@ header .header-mobile .header-toggle i {
     color: #fff;
 }
 
-.portfolio-section .item figure figcaption h4,
-.portfolio-section .item figure figcaption p {
+.project-section .item figure figcaption h4,
+.project-section .item figure figcaption p {
     opacity: 0;
     color: #fff;
     -webkit-transition: all .1s ease-in;
@@ -1385,7 +1385,7 @@ header .header-mobile .header-toggle i {
     transition: all .1s ease-in;
 }
 
-.portfolio-section .item figure figcaption h4 {
+.project-section .item figure figcaption h4 {
     font-size: 20px;
     font-weight: 700;
     -webkit-transform: translateY(-50px);
@@ -1393,7 +1393,7 @@ header .header-mobile .header-toggle i {
     transform: translateY(-50px);
 }
 
-.portfolio-section .item figure figcaption p {
+.project-section .item figure figcaption p {
     padding-top: 10px;
     -webkit-transform: translateY(50px);
     -ms-transform: translateY(50px);
@@ -1401,7 +1401,7 @@ header .header-mobile .header-toggle i {
     text-transform: capitalize;
 }
 
-.portfolio-section .item a figure:after {
+.project-section .item a figure:after {
     position: absolute;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
@@ -1418,7 +1418,7 @@ header .header-mobile .header-toggle i {
     transition: all .1s ease-in;
 }
 
-.portfolio-section .item a figure:hover:after {
+.project-section .item a figure:hover:after {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
@@ -1428,19 +1428,19 @@ header .header-mobile .header-toggle i {
     transition: all .4s ease-in-out;
 }
 
-.portfolio-section .item a.image-link figure:after {
+.project-section .item a.image-link figure:after {
     content: "\f03e";
 }
 
-.portfolio-section .item a.video-link figure:after {
+.project-section .item a.video-link figure:after {
     content: "\f03d";
 }
 
-.portfolio-section .item a.audio-link figure:after {
+.project-section .item a.audio-link figure:after {
     content: "\f03d";
 }
 
-.portfolio-section .item a.ajax-link figure:after {
+.project-section .item a.ajax-link figure:after {
     content: "\f15c";
 }
 
@@ -1535,9 +1535,9 @@ header .header-mobile .header-toggle i {
 }
 
 
-/*============ 10. Ajax Portfolio ============*/
+/*============ 10. Ajax project ============*/
 
-.ajax-portfolio-popup {
+.ajax-project-popup {
     background-color: #FBFBFB;
     position: fixed;
     display: block;
@@ -1558,7 +1558,7 @@ header .header-mobile .header-toggle i {
     overflow-x: hidden;
 }
 
-.ajax-portfolio-popup.on {
+.ajax-project-popup.on {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
@@ -1567,7 +1567,7 @@ header .header-mobile .header-toggle i {
     transition: all .5s ease-in-out;
 }
 
-.ajax-portfolio-popup .navigation-wrap {
+.ajax-project-popup .navigation-wrap {
     position: fixed;
     top: 0;
     left: 0;
@@ -1578,14 +1578,14 @@ header .header-mobile .header-toggle i {
     z-index: 10;
 }
 
-.ajax-portfolio-popup .navigation-wrap .popup-close {
+.ajax-project-popup .navigation-wrap .popup-close {
     color: #fff;
     font-size: 30px;
     line-height: 80px;
     cursor: pointer;
 }
 
-.ajax-portfolio-popup .content-wrap {
+.ajax-project-popup .content-wrap {
     position: absolute;
     top: 0;
     left: 0;
@@ -1596,11 +1596,11 @@ header .header-mobile .header-toggle i {
     overflow-y: scroll;
 }
 
-.ajax-portfolio-popup .content-wrap .popup-content {
+.ajax-project-popup .content-wrap .popup-content {
     margin-top: 40px;
 }
 
-.ajax-portfolio-popup .ajax-loader {
+.ajax-project-popup .ajax-loader {
     position: fixed;
     display: none;
     content: "";
@@ -1641,19 +1641,19 @@ header .header-mobile .header-toggle i {
     }
 }
 
-.ajax-portfolio-popup .single-work h1 {
+.ajax-project-popup .single-work h1 {
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.5px;
 }
 
-.ajax-portfolio-popup .single-work .information li {
+.ajax-project-popup .single-work .information li {
     display: inline-block;
     margin: 0 20px;
     font-size: 18px;
 }
 
-.ajax-portfolio-popup .single-work .information li span.title {
+.ajax-project-popup .single-work .information li span.title {
     font-family: "Playfair Display", serif;
     font-size: 18px;
     font-weight: 700;
@@ -1857,7 +1857,7 @@ header .header-mobile .header-toggle i {
     .resume-section .skills .skill-item {
         padding: 0;
     }
-    .portfolio-section .portfolio-filter ul {
+    .project-section .project-filter ul {
         border: none; 
     }
 }
