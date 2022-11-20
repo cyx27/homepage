@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" data-random-animation="false" data-animation="36">
+<head>
+
+  <!--Meta Tags-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="keywords" content="vcard, resume, personal, portfolio, cv, card, responsive" />
+  <meta name="description" content="vCard / Resume / Personal / Portfolio Template" />
+  <meta name="author" content="cosmos-themes" />
+
+  <!--Page Title-->
+  <title>Cyx's Website</title>
+
+  <!--Plugins Css-->
+  <link rel="stylesheet" href="css/plugins.css">
+  <!--Main Styles Css-->
+  <link rel="stylesheet" href="css/style-light.css">
+
+  <link rel="stylesheet" href="css/blue-color.css">
+
+  <script src="js/modernizr.js"></script>
+
+  <!--Favicons-->
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+<!--Preloader Start-->
+<div class="preloader">
+  <div class="loader">
+    <!--Your Name-->
+    <h4>Yixiao Chen</h4>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<!--Preloader End-->
+
+
+
+<div id="page">
+
+
+  <!--Header Start-->
+  <header>
+    <div class="header-content">
+
+      <!--Mobile Header-->
+      <div class="header-mobile">
+        <a class="header-toggle"><i class="fas fa-bars"></i></a>
+        <h2>Yixiao Chen</h2>
+      </div>
+
+      <!--Main Header-->
+      <div class="header-main" data-simplebar>
+        <div class="image-container">
+          <h2 class="header-name">Yixiao Chen</h2>
+          <img src="img/profile-img.png" alt="profile-pic">
+        </div>
+
+        <!--Nav Menus-->
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="/homepage/#home" class="pt-link active"><span class="nav-menu-icon"><i
+                    class="lnr lnr-home"></i></span>Home </a></li>
+            <li><a href="/homepage/#about" class="pt-link"><span class="nav-menu-icon"><i
+                    class="lnr lnr-user"></i></span>About Me</a></li>
+            <li><a href="/homepage/#project" class="pt-link"><span class="nav-menu-icon"><i
+                    class="lnr lnr-briefcase"></i></span>Project</a></li>
+            <li><a href="/homepage/#blog" class="pt-link"><span class="nav-menu-icon"><i
+                    class="lnr lnr-book"></i></span>Blog</a></li>
+            <li><a href="/homepage/#note" class="pt-link"><span class="nav-menu-icon"><i
+                    class="lnr lnr-pencil"></i></span>Note</a></li>
+          </ul>
+        </nav>
+
+        <!--Nav Footer-->
+        <div class="nav-footer">
+          <!--Copyright Text-->
+          <div class="copy">
+            <p>2022 &copy; csbrdw.<br>All Right Reserved.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+  <!--Header End-->
+
+
+  <!--Main Start-->
+  <div id="main" class="site-main">
+
+    <div class="blog-page">
+      <div class="blog-container">
+        <div class="row">
+
+          <!--Blog Heading Start-->
+          <div class="blog-heading col-md-8 offset-md-2">
+            <span class="cat">Note</span>
+            <h1>1 互联网</h1>
+            <span class="blog-date">November 20, 2022</span>
+          </div>
+          <!--Blog Heading Start-->
+
+          <!--Blog Content Start-->
+          <div class="blog-content col-md-10 offset-md-1">
+            <h1 id="1-internet">1. Internet</h1>
+            <p>Internet是在一个通信网络中连接的计算机的大规模集合，通过装置连接起来，相互之间可以通信。</p>
+            <h1 id="2-ip">2. IP</h1>
+            <p>根据端到端的设计原则，IP只为主机提供一种无连接、不可靠的、尽力而为的数据包传输服务。</p>
+            <h1 id="3-tcp">3. TCP</h1>
+            <p>传输控制协议，是一种面向连接的、可靠的、 基于字节流的传输层通信协议。</p>
+            <h1 id="4-udp">4. UDP</h1>
+            <p>用户数据报协议，一个简单的面向数据报的传输层协议，提供的是非面向连接的、不可靠的数据流传输</p>
+            <h1 id="5-dns">5. DNS</h1>
+            <p>域名系统</p>
+            <ol>
+              <li>DNS之前，转换是通过FTP到中央服务器上下载hosts.txt文件</li>
+              <li>DNS(Domain Name System)是一个分布式数据库，本地负责控制整个数据库的部分段，客户向DNS服务器请求，得到从域名到IP地址的转化。</li>
+              <li>组成<ol>
+                <li>解析器：保存该网络中所有域名和IP地址映射关系的服务器，并将域名转换为IP地址。</li>
+                <li>名称服务器：将域名解析成IP地址的过程。</li>
+              </ol>
+              </li>
+              <li>工作过程：<ol>
+                <li>客户向域名服务器发起查询请求</li>
+                <li>域名服务器本地查询结果<ol>
+                  <li>如果找到，则返回</li>
+                  <li>如果未找到则发送到根域名服务器，根域名服务器查询根域名解析，将包含下一级域名信息的DNS地址返回给客户的域名服务器。</li>
+                </ol>
+                </li>
+                <li>客户的域名服务器根据根域名服务器解析的地址访问下一级DNS，如此递归逐级查询，直到找到位置。</li>
+                <li>客户的域名DNS服务器将查询结果返回客户机。</li>
+                <li>客户根据IP地址访问目标机。</li>
+              </ol>
+              </li>
+            </ol>
+            <h1 id="6-uri-url-urn">6. URI、URL、URN</h1>
+            <ol>
+              <li>统一资源定位符(Uniform/Universal&#39; Resource Locator, URL)用于标识Internet 中的文档(资源)。Internet 中有许多不同类型的资源，可以通过不同格式的URL标识它们。</li>
+              <li>URI(统一资源标识符，Uniform Resource Identifier)允许资源驻留在Internet上的任何位置</li>
+              <li>URL(统一资源定位符，Uniform Resource Locator)显示资源副本的位置</li>
+              <li>URN(统一资源名称，Uniform Resource Name)是资源的唯一名称</li>
+              <li>URL、URN是URI的子集，其中URL和URN有交集。</li>
+            </ol>
+            <p><img src="https://raw.githubusercontent.com/cyx27/image/main/img/image-20221120123913973.png" alt="image-20221120123913973"></p>
+            <h1 id="7-url-">7. URL的一般形式</h1>
+            <ol>
+              <li>协议 (http:):标识⽤于获取内容的协议.</li>
+              <li>主机 (//host.company.com):要连接到的计算机的名称.</li>
+              <li>端⼝ (80):允许多个服务器在同⼀台机器上运⾏.</li>
+              <li>路径(/a/b/c.html):服务器⽤于查找内容.</li>
+              <li>查询字段 (?user=Alice&amp;year=2008): 提供其他参数</li>
+              <li>⽚段标识符(p2): 单⻚⾯路由，锚点定位  </li>
+            </ol>
+
+          </div>
+          <!--Blog Content End-->
+
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<!--Jquery JS-->
+<script src="js/jquery.min.js"></script>
+<!--Plugins JS-->
+<script src="js/plugins.min.js"></script>
+<!--Site Main JS-->
+<script src="js/main.js"></script>
+
+</body>
+</html>
